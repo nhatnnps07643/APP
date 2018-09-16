@@ -1,0 +1,11 @@
+.row
+	.col-12
+		table
+			tr
+				th Name
+				th City
+				th Country
+			tr(ng-repeat="element in data")
+				td {{element.Name}}
+				td {{element.City }}
+				td {{element.Country }}

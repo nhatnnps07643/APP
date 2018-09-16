@@ -1,0 +1,7 @@
+.row
+	.col-md-3(ng-repeat="item in data")
+		figure.text-center
+			img(src="{{item.url}}", alt="alt" style="max-height: 100px").class
+			figcaption
+				h3 {{item.name}}
+				p {{item.desc}}
